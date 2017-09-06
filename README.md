@@ -17,7 +17,7 @@
                 *图像的宽度为原来的1/16，高度为1/4。
                 *像素数。任何值< = 1都被视为1。注：本
                 *解码器使用基于2的幂的最终值，任何其他值都将
-                *舍入到最接近的2的功率。
+                *舍入到最接近的2的功率。**/
                 options.inSampleSize = xxx;
                 options.inJustDecodeBounds = false;//将图片解码到内存中
                 Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.laohu_bg, options);
